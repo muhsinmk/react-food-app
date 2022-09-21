@@ -23,16 +23,13 @@ body {
 
 /* Search Field */
 .search-field {
-  border: 1px solid gray;
   padding: 0.8px;
-  border-radius: 5px;
   margin: 10px 20px;
-
 }
 
 form {
   display: flex;
-  background-color: rgb(234, 234, 234);
+  background-color: rgb(235 227 227);
 }
 
 form input {
@@ -54,7 +51,8 @@ form::placeholder {
 
 /* food-gallery */
 .product-container {
-  background-color: rgb(234, 234, 234);
+  height: 100%;
+  background-color: rgb(235 227 227);
   padding: 10px 20px;
 }
 
@@ -73,8 +71,10 @@ form::placeholder {
 
 /* Product Item  */
 .food-items img {
+  object-fit: cover;
   max-width:100%;
   height:auto;
+
 }
 
 .food-items .item-name {
@@ -84,7 +84,9 @@ form::placeholder {
 }
 
 .food-items .item-desc {
+  text-align: left;
   font-weight: 500;
   font-size: 0.7em;
   color: #7e8a9a;
+  margin-bottom: 30px;
 }

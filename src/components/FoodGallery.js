@@ -6,7 +6,7 @@ const FoodGallery = ({ data }) => {
       <h2 className="section-head">Foods</h2>
       <div className="food-gallery">
         {data.map((item) => (
-          <FoodItems key={item.Recipe} {...item} />
+          <FoodItems key={item.Recipe} {...item}/>
         ))}
       </div>
     </div>
