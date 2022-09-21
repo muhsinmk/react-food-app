@@ -30,13 +30,14 @@ body {
 form {
   display: flex;
   background-color: rgb(235 227 227);
+  border-radius: 5px;
 }
 
 form input {
   background: transparent;
   border: 0px;
   outline: 0px;
-  width: 300px;
+  height: 50px;
   font-size: 0.8em;
   color: #30384d;
 }
@@ -65,16 +66,16 @@ form::placeholder {
 .food-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  grid-gap: 30px;
 }
 
 
 /* Product Item  */
 .food-items img {
   object-fit: cover;
-  max-width:100%;
+  width:100%;
   height:auto;
-
+  border-radius: 10px;
 }
 
 .food-items .item-name {
